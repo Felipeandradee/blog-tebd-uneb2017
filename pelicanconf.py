@@ -4,7 +4,8 @@ from __future__ import unicode_literals
 
 AUTHOR = 'Felipe Andrade; Elizabete Reis; Társis Lima'
 SITENAME = 'Topicos Especiais em Banco de Dados - UNEB 2017.2'
-SITEURL = ''
+SITEURL = '.'
+RELATIVE_URLS = True
 
 PATH = 'content'
 
@@ -15,8 +16,6 @@ DEFAULT_LANG = 'pt'
 # HEADER_COVER = 'output/theme/pelican-clean/static/my_image.png'
 
 THEME = 'output/theme/clean-blog'
-
-SITEURL = '.'
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
