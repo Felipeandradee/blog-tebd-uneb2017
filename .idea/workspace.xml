@@ -2,57 +2,92 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c66dfdaa-af10-4dcc-a7f9-825f73c92715" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Makefile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/content/test.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/develop_server.sh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fabfile.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/archives.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/author/felipe-andrade.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/authors.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/categories.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/category/python.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/category/sobre.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/feeds/all.atom.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/feeds/python.atom.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/primeiro-artigo.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/sobre-o-blog.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/tag/bigdata.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/tag/database.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/tag/markdown.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/tag/pelican.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/tag/uneb.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/tags.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/theme/css/main.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/theme/css/pygment.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/theme/css/reset.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/theme/css/typogrify.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/theme/css/wide.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/theme/images/icons/aboutme.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/theme/images/icons/bitbucket.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/theme/images/icons/delicious.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/theme/images/icons/facebook.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/theme/images/icons/github.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/theme/images/icons/gitorious.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/theme/images/icons/gittip.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/theme/images/icons/google-groups.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/theme/images/icons/google-plus.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/theme/images/icons/hackernews.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/theme/images/icons/lastfm.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/theme/images/icons/linkedin.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/theme/images/icons/reddit.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/theme/images/icons/rss.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/theme/images/icons/slideshare.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/theme/images/icons/speakerdeck.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/theme/images/icons/stackoverflow.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/theme/images/icons/twitter.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/theme/images/icons/vimeo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/theme/images/icons/youtube.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pelicanconf.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/publishconf.py" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/theme/clean-blog/static/fonts/glyphicons-halflings-regular.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/theme/clean-blog/static/images/contact-bg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/theme/clean-blog/static/images/home-bg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/theme/clean-blog/static/images/post-sample-image.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/theme/fonts/glyphicons-halflings-regular.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/theme/images/contact-bg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/theme/images/home-bg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/theme/images/post-sample-image.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/theme/clean-blog/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/theme/clean-blog/static/css/bootstrap.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/theme/clean-blog/static/css/bootstrap.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/theme/clean-blog/static/css/clean-blog.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/theme/clean-blog/static/css/code_blocks/darkly.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/theme/clean-blog/static/css/code_blocks/github.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/theme/clean-blog/static/css/code_blocks/monokai.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/theme/clean-blog/static/css/code_blocks/tomorrow_night.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/theme/clean-blog/static/fonts/glyphicons-halflings-regular.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/theme/clean-blog/static/js/bootstrap.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/theme/clean-blog/static/js/clean-blog.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/theme/clean-blog/static/js/jquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/theme/clean-blog/static/js/jquery.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/theme/clean-blog/templates/analytics.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/theme/clean-blog/templates/article.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/theme/clean-blog/templates/base.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/theme/clean-blog/templates/category.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/theme/clean-blog/templates/page.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/theme/clean-blog/templates/pagination.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/theme/clean-blog/templates/period_archives.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/theme/clean-blog/templates/tags.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/theme/css/bootstrap.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/theme/css/bootstrap.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/theme/css/clean-blog.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/theme/css/code_blocks/darkly.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/theme/css/code_blocks/github.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/theme/css/code_blocks/monokai.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/theme/css/code_blocks/tomorrow_night.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/theme/fonts/glyphicons-halflings-regular.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/theme/js/bootstrap.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/theme/js/clean-blog.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/theme/js/jquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/theme/js/jquery.min.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/category/python.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/feeds/python.atom.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pelican.pid" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/primeiro-artigo.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/srv.pid" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tag/markdown.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tag/pelican.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/theme/css/main.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/theme/css/pygment.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/theme/css/reset.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/theme/css/typogrify.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/theme/css/wide.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/theme/images/icons/aboutme.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/theme/images/icons/bitbucket.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/theme/images/icons/delicious.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/theme/images/icons/facebook.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/theme/images/icons/github.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/theme/images/icons/gitorious.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/theme/images/icons/gittip.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/theme/images/icons/google-groups.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/theme/images/icons/google-plus.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/theme/images/icons/hackernews.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/theme/images/icons/lastfm.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/theme/images/icons/linkedin.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/theme/images/icons/reddit.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/theme/images/icons/rss.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/theme/images/icons/slideshare.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/theme/images/icons/speakerdeck.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/theme/images/icons/stackoverflow.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/theme/images/icons/twitter.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/theme/images/icons/vimeo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/theme/images/icons/youtube.png" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pelican.pid" afterPath="$PROJECT_DIR$/pelican.pid" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/srv.pid" afterPath="$PROJECT_DIR$/srv.pid" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/archives.html" afterPath="$PROJECT_DIR$/archives.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/author/felipe-andrade.html" afterPath="$PROJECT_DIR$/author/felipe-andrade.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/authors.html" afterPath="$PROJECT_DIR$/authors.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/categories.html" afterPath="$PROJECT_DIR$/categories.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/category/sobre.html" afterPath="$PROJECT_DIR$/category/sobre.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/feeds/all.atom.xml" afterPath="$PROJECT_DIR$/feeds/all.atom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sobre-o-blog.html" afterPath="$PROJECT_DIR$/sobre-o-blog.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tag/bigdata.html" afterPath="$PROJECT_DIR$/tag/bigdata.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tag/database.html" afterPath="$PROJECT_DIR$/tag/database.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tag/uneb.html" afterPath="$PROJECT_DIR$/tag/uneb.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tags.html" afterPath="$PROJECT_DIR$/tags.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -112,6 +147,48 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="blog-tebd-uneb2017" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="blog-tebd-uneb2017" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="blog-tebd-uneb2017" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="theme" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="blog-tebd-uneb2017" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="blog-tebd-uneb2017" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tag" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="blog-tebd-uneb2017" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="blog-tebd-uneb2017" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="category" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -303,10 +380,10 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3295082" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3295082" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25833333" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25833333" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.328594" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
