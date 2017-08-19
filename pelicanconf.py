@@ -12,6 +12,12 @@ TIMEZONE = 'America/Fortaleza'
 
 DEFAULT_LANG = 'pt'
 
+# HEADER_COVER = 'output/theme/pelican-clean/static/my_image.png'
+
+THEME = 'output/theme/clean-blog'
+
+SITEURL = '.'
+
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
 CATEGORY_FEED_ATOM = None

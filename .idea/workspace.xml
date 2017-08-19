@@ -1,8 +1,122 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c66dfdaa-af10-4dcc-a7f9-825f73c92715" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+    <list default="true" id="c66dfdaa-af10-4dcc-a7f9-825f73c92715" name="Default" comment="Alterado o tema e corrigido o erro no caminho do css">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/theme/clean-blog/screenshot.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/theme/clean-blog/static/fonts/glyphicons-halflings-regular.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/theme/clean-blog/static/fonts/glyphicons-halflings-regular.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/theme/clean-blog/static/fonts/glyphicons-halflings-regular.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/theme/clean-blog/static/images/about-bg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/theme/clean-blog/static/images/contact-bg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/theme/clean-blog/static/images/home-bg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/theme/clean-blog/static/images/post-bg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/theme/clean-blog/static/images/post-sample-image.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/theme/fonts/glyphicons-halflings-regular.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/theme/fonts/glyphicons-halflings-regular.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/theme/fonts/glyphicons-halflings-regular.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/theme/images/about-bg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/theme/images/contact-bg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/theme/images/home-bg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/theme/images/post-bg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/theme/images/post-sample-image.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/feeds/sobre.atom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/theme/clean-blog/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/theme/clean-blog/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/theme/clean-blog/static/css/bootstrap.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/theme/clean-blog/static/css/bootstrap.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/theme/clean-blog/static/css/clean-blog.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/theme/clean-blog/static/css/clean-blog.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/theme/clean-blog/static/css/code_blocks/darkly.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/theme/clean-blog/static/css/code_blocks/github.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/theme/clean-blog/static/css/code_blocks/monokai.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/theme/clean-blog/static/css/code_blocks/tomorrow.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/theme/clean-blog/static/css/code_blocks/tomorrow_night.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/theme/clean-blog/static/fonts/glyphicons-halflings-regular.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/theme/clean-blog/static/js/bootstrap.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/theme/clean-blog/static/js/bootstrap.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/theme/clean-blog/static/js/clean-blog.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/theme/clean-blog/static/js/clean-blog.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/theme/clean-blog/static/js/jquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/theme/clean-blog/static/js/jquery.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/theme/clean-blog/templates/analytics.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/theme/clean-blog/templates/archives.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/theme/clean-blog/templates/article.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/theme/clean-blog/templates/author.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/theme/clean-blog/templates/authors.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/theme/clean-blog/templates/base.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/theme/clean-blog/templates/categories.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/theme/clean-blog/templates/category.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/theme/clean-blog/templates/comments.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/theme/clean-blog/templates/disqus_script.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/theme/clean-blog/templates/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/theme/clean-blog/templates/page.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/theme/clean-blog/templates/pagination.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/theme/clean-blog/templates/period_archives.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/theme/clean-blog/templates/tag.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/theme/clean-blog/templates/tags.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/theme/css/bootstrap.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/theme/css/bootstrap.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/theme/css/clean-blog.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/theme/css/clean-blog.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/theme/css/code_blocks/darkly.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/theme/css/code_blocks/github.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/theme/css/code_blocks/monokai.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/theme/css/code_blocks/tomorrow.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/theme/css/code_blocks/tomorrow_night.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/theme/fonts/glyphicons-halflings-regular.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/theme/js/bootstrap.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/theme/js/bootstrap.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/theme/js/clean-blog.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/theme/js/clean-blog.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/theme/js/jquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/theme/js/jquery.min.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/category/python.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/feeds/python.atom.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/primeiro-artigo.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/tag/markdown.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/tag/pelican.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/theme/css/main.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/theme/css/pygment.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/theme/css/reset.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/theme/css/typogrify.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/theme/css/wide.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/theme/images/icons/aboutme.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/theme/images/icons/bitbucket.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/theme/images/icons/delicious.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/theme/images/icons/facebook.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/theme/images/icons/github.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/theme/images/icons/gitorious.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/theme/images/icons/gittip.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/theme/images/icons/google-groups.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/theme/images/icons/google-plus.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/theme/images/icons/hackernews.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/theme/images/icons/lastfm.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/theme/images/icons/linkedin.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/theme/images/icons/reddit.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/theme/images/icons/rss.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/theme/images/icons/slideshare.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/theme/images/icons/speakerdeck.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/theme/images/icons/stackoverflow.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/theme/images/icons/twitter.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/theme/images/icons/vimeo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/theme/images/icons/youtube.png" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/content/test.md" afterPath="$PROJECT_DIR$/content/hello_world.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output/archives.html" afterPath="$PROJECT_DIR$/output/archives.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output/author/felipe-andrade.html" afterPath="$PROJECT_DIR$/output/author/felipe-andrade.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output/authors.html" afterPath="$PROJECT_DIR$/output/authors.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output/categories.html" afterPath="$PROJECT_DIR$/output/categories.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output/category/sobre.html" afterPath="$PROJECT_DIR$/output/category/sobre.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output/feeds/all.atom.xml" afterPath="$PROJECT_DIR$/output/feeds/all.atom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output/index.html" afterPath="$PROJECT_DIR$/output/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output/sobre-o-blog.html" afterPath="$PROJECT_DIR$/output/sobre-o-blog.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output/tag/bigdata.html" afterPath="$PROJECT_DIR$/output/tag/bigdata.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output/tag/database.html" afterPath="$PROJECT_DIR$/output/tag/database.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output/tag/uneb.html" afterPath="$PROJECT_DIR$/output/tag/uneb.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output/tags.html" afterPath="$PROJECT_DIR$/output/tags.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pelican.pid" afterPath="$PROJECT_DIR$/pelican.pid" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pelicanconf.py" afterPath="$PROJECT_DIR$/pelicanconf.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/srv.pid" afterPath="$PROJECT_DIR$/srv.pid" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -14,21 +128,41 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="test.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/content/test.md">
+      <file leaf-file-name="pelicanconf.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pelicanconf.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="12" column="8" lean-forward="false" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
+            <state relative-caret-position="288">
+              <caret line="18" column="12" lean-forward="false" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pelicanconf.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pelicanconf.py">
+      <file leaf-file-name="hello_world.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/content/hello_world.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+            <state relative-caret-position="16">
+              <caret line="1" column="21" lean-forward="false" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="page.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/output/theme/clean-blog/templates/page.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="base.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/output/theme/clean-blog/templates/base.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="39" column="30" lean-forward="false" selection-start-line="39" selection-start-column="23" selection-end-line="39" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -47,7 +181,7 @@
       <file leaf-file-name="Makefile" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Makefile">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1457">
+            <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
@@ -57,21 +191,11 @@
       <file leaf-file-name="fabfile.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/fabfile.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-236">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="128">
+              <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
               <folding>
                 <element signature="e#0#24#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="develop_server.sh" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/develop_server.sh">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -100,12 +224,18 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pelicanconf.py" />
         <option value="$PROJECT_DIR$/content/test.md" />
+        <option value="$PROJECT_DIR$/pelicanconf.py" />
+        <option value="$PROJECT_DIR$/content/hello_world.md" />
       </list>
     </option>
   </component>
@@ -135,26 +265,25 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="blog-tebd-uneb2017" />
+              <option name="myItemId" value="blog-tebd-uneb2017-dev" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="blog-tebd-uneb2017" />
+              <option name="myItemId" value="blog-tebd-uneb2017-dev" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="blog-tebd-uneb2017" />
+              <option name="myItemId" value="blog-tebd-uneb2017-dev" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="blog-tebd-uneb2017" />
+              <option name="myItemId" value="blog-tebd-uneb2017-dev" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -164,11 +293,11 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="blog-tebd-uneb2017" />
+              <option name="myItemId" value="blog-tebd-uneb2017-dev" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="blog-tebd-uneb2017" />
+              <option name="myItemId" value="blog-tebd-uneb2017-dev" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -179,10 +308,12 @@
         </subPane>
       </pane>
       <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="Git.Branch.Popup.ShowAllRemotes" value="true" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -294,6 +425,12 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
@@ -353,29 +490,49 @@
     </task>
     <servers />
   </component>
+  <component name="TodoView" selected-index="4">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="30" width="1366" height="738" extended-state="6" />
-    <editor active="true" />
+    <frame x="0" y="30" width="1366" height="738" extended-state="0" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24963397" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295082" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3295082" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295082" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2621212" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24963397" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -384,11 +541,52 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Alterado o tema e corrigido o erro no caminho do css" />
+    <option name="LAST_COMMIT_MESSAGE" value="Alterado o tema e corrigido o erro no caminho do css" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/publishconf.py" />
+    <entry file="file://$PROJECT_DIR$/fabfile.py" />
+    <entry file="file://$PROJECT_DIR$/develop_server.sh" />
+    <entry file="file://$PROJECT_DIR$/pelicanconf.py" />
+    <entry file="file://$PROJECT_DIR$/Makefile" />
+    <entry file="file://$PROJECT_DIR$/content/hello_world.md" />
+    <entry file="file://$PROJECT_DIR$/pelican.pid">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16">
+          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/srv.pid">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/develop_server.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/output/tags.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/srv.pid">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -413,44 +611,52 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Makefile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/fabfile.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-236">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="128">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           <folding>
             <element signature="e#0#24#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/develop_server.sh">
+    <entry file="file://$PROJECT_DIR$/output/theme/clean-blog/templates/page.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/output/theme/clean-blog/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="39" column="30" lean-forward="false" selection-start-line="39" selection-start-column="23" selection-end-line="39" selection-end-column="30" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pelicanconf.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+        <state relative-caret-position="288">
+          <caret line="18" column="12" lean-forward="false" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Makefile">
+    <entry file="file://$PROJECT_DIR$/content/hello_world.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1457">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/content/test.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="12" column="8" lean-forward="false" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
+        <state relative-caret-position="16">
+          <caret line="1" column="21" lean-forward="false" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="21" />
           <folding />
         </state>
       </provider>
