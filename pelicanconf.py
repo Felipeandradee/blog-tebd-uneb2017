@@ -13,7 +13,7 @@ TIMEZONE = 'America/Fortaleza'
 
 DEFAULT_LANG = 'pt'
 
-# HEADER_COVER = 'output/theme/pelican-clean/static/my_image.png'
+STATIC_PATHS = ['images', 'pdfs']
 
 THEME = 'output/theme/clean-blog'
 
@@ -35,6 +35,3 @@ AUTHOR_FEED_RSS = None
 #           ('Another social link', '#'),)
 
 DEFAULT_PAGINATION = 10
-
-# Uncomment following line if you want document-relative URLs when developing
-#RELATIVE_URLS = True
