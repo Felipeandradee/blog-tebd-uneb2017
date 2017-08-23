@@ -1,40 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c66dfdaa-af10-4dcc-a7f9-825f73c92715" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/theme/clean-blog/screenshot.png" afterPath="$PROJECT_DIR$/theme/clean-blog/screenshot.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/archives.html" afterPath="$PROJECT_DIR$/archives.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/author/felipe-andrade.html" afterPath="$PROJECT_DIR$/author/felipe-andrade.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/authors.html" afterPath="$PROJECT_DIR$/authors.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/categories.html" afterPath="$PROJECT_DIR$/categories.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/category/sobre.html" afterPath="$PROJECT_DIR$/category/sobre.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/feeds/all.atom.xml" afterPath="$PROJECT_DIR$/feeds/all.atom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/feeds/sobre.atom.xml" afterPath="$PROJECT_DIR$/feeds/sobre.atom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sobre-o-blog.html" afterPath="$PROJECT_DIR$/sobre-o-blog.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tag/bigdata.html" afterPath="$PROJECT_DIR$/tag/bigdata.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tag/database.html" afterPath="$PROJECT_DIR$/tag/database.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tag/uneb.html" afterPath="$PROJECT_DIR$/tag/uneb.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tags.html" afterPath="$PROJECT_DIR$/tags.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/theme/clean-blog/.gitignore" afterPath="$PROJECT_DIR$/theme/clean-blog/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/theme/clean-blog/README.md" afterPath="$PROJECT_DIR$/theme/clean-blog/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/theme/clean-blog/static/css/code_blocks/darkly.css" afterPath="$PROJECT_DIR$/theme/clean-blog/static/css/code_blocks/darkly.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/theme/clean-blog/static/css/code_blocks/github.css" afterPath="$PROJECT_DIR$/theme/clean-blog/static/css/code_blocks/github.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/theme/clean-blog/static/css/code_blocks/monokai.css" afterPath="$PROJECT_DIR$/theme/clean-blog/static/css/code_blocks/monokai.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/theme/clean-blog/static/css/code_blocks/tomorrow.css" afterPath="$PROJECT_DIR$/theme/clean-blog/static/css/code_blocks/tomorrow.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/theme/clean-blog/static/css/code_blocks/tomorrow_night.css" afterPath="$PROJECT_DIR$/theme/clean-blog/static/css/code_blocks/tomorrow_night.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/theme/clean-blog/templates/analytics.html" afterPath="$PROJECT_DIR$/theme/clean-blog/templates/analytics.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/theme/clean-blog/templates/base.html" afterPath="$PROJECT_DIR$/theme/clean-blog/templates/base.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/theme/clean-blog/templates/comments.html" afterPath="$PROJECT_DIR$/theme/clean-blog/templates/comments.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/theme/clean-blog/templates/disqus_script.html" afterPath="$PROJECT_DIR$/theme/clean-blog/templates/disqus_script.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/theme/clean-blog/templates/pagination.html" afterPath="$PROJECT_DIR$/theme/clean-blog/templates/pagination.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/theme/css/code_blocks/darkly.css" afterPath="$PROJECT_DIR$/theme/css/code_blocks/darkly.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/theme/css/code_blocks/github.css" afterPath="$PROJECT_DIR$/theme/css/code_blocks/github.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/theme/css/code_blocks/monokai.css" afterPath="$PROJECT_DIR$/theme/css/code_blocks/monokai.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/theme/css/code_blocks/tomorrow.css" afterPath="$PROJECT_DIR$/theme/css/code_blocks/tomorrow.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/theme/css/code_blocks/tomorrow_night.css" afterPath="$PROJECT_DIR$/theme/css/code_blocks/tomorrow_night.css" />
-    </list>
+    <list default="true" id="c66dfdaa-af10-4dcc-a7f9-825f73c92715" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
