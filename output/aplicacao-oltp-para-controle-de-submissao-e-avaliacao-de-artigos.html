@@ -2,23 +2,23 @@
 <html lang="pt">
 
 <head>
-        <meta charset="utf-8">
+            <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="description" content="">
         <meta name="author" content="">
 
-        <title>Topicos Especiais em Banco de Dados - UNEB 2017.2 - Articles by Felipe Andrade</title>
+        <title>Topicos Especiais em Banco de Dados - UNEB 2017.2</title>
 
 
         <!-- Bootstrap Core CSS -->
-        <link href="../theme/css/bootstrap.min.css" rel="stylesheet">
+        <link href="./theme/css/bootstrap.min.css" rel="stylesheet">
 
         <!-- Custom CSS -->
-        <link href="../theme/css/clean-blog.min.css" rel="stylesheet">
+        <link href="./theme/css/clean-blog.min.css" rel="stylesheet">
 
         <!-- Code highlight color scheme -->
-            <link href="../theme/css/code_blocks/darkly.css" rel="stylesheet">
+            <link href="./theme/css/code_blocks/darkly.css" rel="stylesheet">
 
         <!-- Custom Fonts -->
         <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -32,8 +32,23 @@
             <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
         <![endif]-->
 
-		<meta property="og:locale" content="pt">
+
+
+
+        <meta name="tags" contents="oltp" />
+        <meta name="tags" contents="laravek" />
+
+
+			<meta property="og:locale" content="pt">
 		<meta property="og:site_name" content="Topicos Especiais em Banco de Dados - UNEB 2017.2">
+
+	<meta property="og:type" content="article">
+	<meta property="article:author" content="">
+	<meta property="og:url" content="./aplicacao-oltp-para-controle-de-submissao-e-avaliacao-de-artigos.html">
+	<meta property="og:title" content="Aplicação OLTP para Controle de Submissão e Avaliação de Artigos">
+	<meta property="og:description" content="">
+	<meta property="og:image" content="./">
+	<meta property="article:published_time" content="2017-08-30 07:30:00-03:00">
 </head>
 
 <body>
@@ -49,7 +64,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="../">Topicos Especiais em Banco de Dados - UNEB 2017.2</a>
+                <a class="navbar-brand" href="./">Topicos Especiais em Banco de Dados - UNEB 2017.2</a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -64,12 +79,17 @@
     </nav>
 
     <!-- Page Header -->
-        <header class="intro-header" style="background-image: url('../theme/images/home-bg.jpg')">
+        <header class="intro-header" style="background-image: url('./theme/images/post-bg.jpg')">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                     <div class="post-heading">
-                        <h1>Articles by Felipe Andrade</h1>
+                        <h1>Aplicação OLTP para Controle de Submissão e Avaliação de Artigos</h1>
+                        <span class="meta">Posted by
+                                <a href="./author/elizabete-reis.html">Elizabete Reis</a>
+                             on Qua 30 agosto 2017
+                        </span>
+                        
                     </div>
                 </div>
             </div>
@@ -80,42 +100,41 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-        <div class="post-preview">
-            <a href="../aplicacao-oltp-para-controle-de-submissao-e-avaliacao-de-artigos.html" rel="bookmark" title="Permalink to Aplicação OLTP para Controle de Submissão e Avaliação de Artigos">
-                <h2 class="post-title">
-                    Aplicação OLTP para Controle de Submissão e Avaliação de Artigos
-                </h2>
-            </a>
-                <p>= Aplicação OLTP para Controle de Submissão e Avaliação de Artigos</p>
-            <p class="post-meta">Posted by
-                    <a href="../author/elizabete-reis.html">Elizabete Reis</a>
-                    <a href="../author/felipe-andrade.html">Felipe Andrade</a>
-                    <a href="../author/tarsis-lima.html">Társis Lima</a>
-                 on Qua 30 agosto 2017
-            </p>
-        </div>
-        <hr>
-        <div class="post-preview">
-            <a href="../sobre-o-blog.html" rel="bookmark" title="Permalink to hello_world.sql">
-                <h2 class="post-title">
-                    hello_world.sql
-                </h2>
-            </a>
-                <p>Uma descriçao sobre o blog</p>
-            <p class="post-meta">Posted by
-                    <a href="../author/felipe-andrade.html">Felipe Andrade</a>
-                 on Qua 16 agosto 2017
-            </p>
-        </div>
-        <hr>
+    <!-- Post Content -->
+    <article>
+        <h1>Aplicação OLTP para Controle de Submissão e Avaliação de Artigos</h1>
+<p>A aplicação OLTP para o sistema de submissão, já descrito no post anterior, que será apresentada nos parágrafos seguintes foi construída com apoio das framework <em>Laravel, Docker e Bootstrap</em>. A elaboração do sistema seguiu as etapas ilustradas na figura 1.</p>
+<div align="center">
+    <p><img alt="metodologia" src="images/metodologia.png" /></p>
+    <p>Figura 1. Etapas para elaboração da aplicação</p>
+</div>
+<p>As primeiras etapas foram as de coleta de requisitos e modelagem, já descrita no post anterior, após seguiu-se para a população da base, criação das transações de <em>commit</em> e <em>rollback</em> e finalização da aplicação.</p>
+<p>A geração de dados para povoar o banco foi feita dividida em 3 etapas:
+A primeira etapa foi povoar as tabelas <em>Congress</em> e <em>Paper</em>, para isso foi utilizado uma técnica chamada <em>Web Scrapping</em>, na qual é criado um programa que varre a web coletando dados específicos (o código utilizado se encontra em https://github.com/Felipeandradee/scrapper-tebd ). A figura 2 e 3 ilustram um trecho do script que realiza primeira etapa do povoamento.</p>
+<div align="center">
+    <p><img alt="crawler1" src="images/crawler1.png" /></p>
+    <p>Figura 2. Primeira Etapa do Povoamento</p>
+    <p><img alt="crawler2" src="images/crawler2.png" /></p>
+    <p>Figura 3. Primeira Etapa do Povoamento.</p>
+</div>
+<p>A segunda etapa foi povoar a tabela Participant, nesse caso foi utilizado uma biblioteca php chamada <em>Faker</em> que gera dados fictícios aleatório com base em um padrão pré definido.
+Por fim, com esses dados foi possível criar as tabelas reviser, autor, congress_paper e review, já que são tabelas que fazem a junção de dados das etapas 1 e 2. As figuras 4 e 5 ilustram a segunda etapa do povoamento.</p>
+<div align="center">
+    <p><img alt="faker" src="images/faker.png" /></p>
+    <p>Figura 4. Definição das regras para geração dos dados para cada campo da tabela Participants.</p>
+    <p><img alt="participant" src="images/participant_seeder.png" /></p>
+    <p>Figura 5. Chamada ao gerador solicitando a criação de 500.000 registros fictícios.</p>
+</div>
+<p>Por fim adicionamos uma chamada ao seed criado na classe DatabaseSeed que é responsável por executar os seeds (Figura 6).</p>
+<div align="center">
+    <p><img alt="database" src="images/database_seeder.png" /></p>
+    <p>Figura 6. Chamada ao seed.</p>
+</div>
+<p>O programa foi executado via terminal com o comando:    “php artisan migrate --seed”.</p>
+    </article>
 
-    <!-- Pager -->
-    <ul class="pager">
-        <li class="next">
-        </li>
-    </ul>
-    Page 1 / 1
     <hr>
+
             </div>
         </div>
     </div>
@@ -161,13 +180,13 @@
     </footer>
 
     <!-- jQuery -->
-    <script src="../theme/js/jquery.js"></script>
+    <script src="./theme/js/jquery.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
-    <script src="../theme/js/bootstrap.min.js"></script>
+    <script src="./theme/js/bootstrap.min.js"></script>
 
     <!-- Custom Theme JavaScript -->
-    <script src="../theme/js/clean-blog.min.js"></script>
+    <script src="./theme/js/clean-blog.min.js"></script>
 
 </body>
 
