@@ -3,9 +3,8 @@ Date: 2017-09-26 07:30
 Category: oltp
 Tags: android, faculdadeapp, json
 Slug: projeto-modelo
-Author: Elizabete Rei
+Author: Elizabete Reis
 Summary: rodando aplicativo Faculdade
-**
 
 **Instalando ambiente e rodando aplicativo Faculdade**
 

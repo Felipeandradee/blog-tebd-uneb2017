@@ -1,9 +1,9 @@
 Title: Aplicação OLTP para Controle de Submissão e Avaliação de Artigos
 Date: 2017-08-30 7:30
 Category: oltp
-Tags: oltp, laravek
+Tags: oltp, laravel
 Authors: Elizabete Reis, Felipe Andrade, Társis Lima
-Summary: = Aplicação OLTP para Controle de Submissão e Avaliação de Artigos
+Summary: Aplicação OLTP para Controle de Submissão e Avaliação de Artigos
 
 
 # Aplicação OLTP para Controle de Submissão e Avaliação de Artigos 
