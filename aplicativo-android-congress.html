@@ -2,13 +2,13 @@
 <html lang="pt">
 
 <head>
-        <meta charset="utf-8">
+            <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="description" content="">
         <meta name="author" content="">
 
-        <title>Topicos Especiais em Banco de Dados - UNEB 2017.2 - Authors</title>
+        <title>Topicos Especiais em Banco de Dados - UNEB 2017.2</title>
 
 
         <!-- Bootstrap Core CSS -->
@@ -32,8 +32,24 @@
             <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
         <![endif]-->
 
-		<meta property="og:locale" content="pt">
+
+
+
+        <meta name="tags" contents="android" />
+        <meta name="tags" contents="mobile" />
+        <meta name="tags" contents="json" />
+
+
+			<meta property="og:locale" content="pt">
 		<meta property="og:site_name" content="Topicos Especiais em Banco de Dados - UNEB 2017.2">
+
+	<meta property="og:type" content="article">
+	<meta property="article:author" content="">
+	<meta property="og:url" content="./aplicativo-android-congress.html">
+	<meta property="og:title" content="Aplicativo Android para listagem de congressos">
+	<meta property="og:description" content="">
+	<meta property="og:image" content="./">
+	<meta property="article:published_time" content="2017-09-27 07:30:00-03:00">
 </head>
 
 <body>
@@ -64,12 +80,17 @@
     </nav>
 
     <!-- Page Header -->
-        <header class="intro-header" style="background-image: url('./theme/images/home-bg.jpg')">
+        <header class="intro-header" style="background-image: url('./theme/images/post-bg.jpg')">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                     <div class="post-heading">
-                        <h1>Articles by </h1>
+                        <h1>Aplicativo Android para listagem de congressos</h1>
+                        <span class="meta">Posted by
+                                <a href="./author/felipe-andrade.html">Felipe Andrade</a>
+                             on Wed 27 September 2017
+                        </span>
+                        
                     </div>
                 </div>
             </div>
@@ -80,30 +101,38 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-        <div class="post-preview">
-            <a href="./author/elizabete-reis.html" rel="bookmark">
-                <h2 class="post-title">
-                    Elizabete Reis (4)
-                </h2>
-            </a>
-        </div>
-        <hr>
-        <div class="post-preview">
-            <a href="./author/felipe-andrade.html" rel="bookmark">
-                <h2 class="post-title">
-                    Felipe Andrade (3)
-                </h2>
-            </a>
-        </div>
-        <hr>
-        <div class="post-preview">
-            <a href="./author/tarsis-lima.html" rel="bookmark">
-                <h2 class="post-title">
-                    Társis Lima (1)
-                </h2>
-            </a>
-        </div>
-        <hr>
+    <!-- Post Content -->
+    <article>
+        <h1>Aplicativo Android para listagem de congressos</h1>
+<hr>
+<p>Utilizando dos conhecimentos adquiridos através do nivelamento com o aplicativo Faculdade,
+foi criado um app para listagem de congressos.</p>
+<p>Os dados dos congressos a serem listados estavam disponiveis em um json que poderia ser acessado através de uma
+requisição ao servidor.</p>
+<p><img alt="Splash" src="images/json.jpg"></p>
+<p>Figura 1. Parte do Json disponivel.</p>
+<p>Quando o aplicativo era aberto pela primeira vez, ele fazia uma requisição do tipo GET à rota que se encontrava o json.
+Com os dados carregando então salvada tudo em um banco sqlite no smartphone.</p>
+<p><img alt="Splash" src="images/obtendo_dados.jpg"></p>
+<p>Figura 2. Splash quando é carregado o json.</p>
+<p><img alt="Splash" src="images/splash_webservice.jpg"></p>
+<p>Figura 3. Splash com mensagem quando o dados é consumido do servidor.</p>
+<p>Após os dados serem carregados e salvos no sqlite do smartphone, é então exibido a listagem dos congressos com nome,
+dada limite de submissão e data limite de revisão.</p>
+<p><img alt="Splash" src="images/listview.jpg"></p>
+<p>Figura 4. ListView preenchida com os congressos</p>
+<p>Nos próximos acessos ao aplicativo, o mesmo não irá consultar o servico web, pois os dados já estão salvos no smartphone,
+permitindo assim um acesso sem necessidade de conexão com a internet. Sendo exibido uma mensagem no splash
+informando que foi consumido diretamento do SQLite.</p>
+<p><img alt="Splash" src="images/splash_sqlite.jpg"></p>
+<p>Figura 5. Splash com mensagem quando o dados é consumido do SQLite.</p>
+<p>A arquitetura utilizada no desenvolvimento do aplicativo pode ser vista no diagrama de classe da figura 6.</p>
+<p><img alt="Splash" src="images/ClassDiagram.jpeg"></p>
+<p>Figura 6. Diagrama de classes do app</p>
+    </article>
+
+    <hr>
+
             </div>
         </div>
     </div>
