@@ -88,7 +88,7 @@
                         <h1>Aplicação OLAP - Star Schema e DW de Congresso</h1>
                         <span class="meta">Posted by
                                 <a href="./author/elizabete-reis.html">Elizabete Reis</a>
-                             on Seg 23 outubro 2017
+                             on Mon 23 October 2017
                         </span>
                         
                     </div>
@@ -104,9 +104,9 @@
     <!-- Post Content -->
     <article>
         <p><strong>Aplicação OLAP - Star Schema e DW de Congresso</strong></p>
-<hr />
+<hr>
 <p>A criação do data warehouse demanda inicialmente a criação de um modelo de dados dimensionais  da aplicação chamado <em>star schema</em>. Tal modelo é composto por uma tabela central ou tabela fato e várias dimensões. A tabela fato armazena o fato ocorrido, os atributos mensuráveis e as chaves para as dimensões, já as dimensões são as tabelas contém as características do fato que ocorreu. A figura 1 representa o modelo star schema para a aplicação de submissão artigos.</p>
-<p><img alt="Star Schema para Aplicação de Submissão de Artigos" src="./images/congressModel.png" /></p>
+<p><img alt="Star Schema para Aplicação de Submissão de Artigos" src="./images/congressModel.png"></p>
 <p>No modelo apresentado na figura as dimensões são as tabelas <em>congress</em> e <em>autor</em>, um fato é representado pela tabela <em>admissions</em> que contém <em>accepted</em> e <em>refused</em>, os atributos mensuráveis do modelo que representam respectivamente os artigos aceitos e os recusados por um determinado congresso. </p>
 <p>O indicador escolhido para ser mensurado foi o número de artigos publicados por autor, lembrando que para um artigo ser publicado ele precisa ser aceito. Para chegar até esse indicador algumas questão foram colocadas:</p>
 <ol>
@@ -115,9 +115,9 @@
 <li>Quem? Pelo autor z</li>
 </ol>
 <p>Estas respostas foram a base para criação do cubo através da ferramenta <a href="spagobi.org">SpagoBI</a> , o projeto em questão utilizou a versão 5.2 do servidor e 4.2 da ide SpagoBI Studio, pois a versão mais recente da IDE apresentou problemas no ambiente linux. A figura 2 mostra a criação do modelo do cubo através da ferramenta citada.</p>
-<p><img alt="Criação do modelo através do SpagoBI" src="./images/spagobiscreen.png" width="800" height="500" /></p>
+<p><img alt="Criação do modelo através do SpagoBI" src="./images/spagobiscreen.png"></p>
 <p>Após a criação o cubo foi enviado ao server onde é possível gerar relatórios em forma de gráficos ou tabelas cruzando as informações das tabelas de dimensão e fato. A figura 3 apresenta uma tabela com uma relação entre autor e quantidade artigos aceitos e recusados.</p>
-<p><img alt="Tabela de Relação entre Autor e Artigo" src="./images/serverscreen.png"  width="800" height="500" /></p>
+<p><img alt="Tabela de Relação entre Autor e Artigo" src="./images/serverscreen.png"></p>
 <p>Na primeira e segunda coluna estão os valores relativos a artigos aceitos e recusados, respectivamente, e na terceira o nome do autor destes artigos.</p>
 <p>A próxima etapa do projeto e realizar o processo de ETL para migrar as informações do base relacional para a base do DW.</p>
     </article>

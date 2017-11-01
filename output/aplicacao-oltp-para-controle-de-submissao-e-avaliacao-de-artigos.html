@@ -89,7 +89,7 @@
                                 <a href="./author/elizabete-reis.html">Elizabete Reis</a>
                                 <a href="./author/felipe-andrade.html">Felipe Andrade</a>
                                 <a href="./author/tarsis-lima.html">Társis Lima</a>
-                             on Qua 30 agosto 2017
+                             on Wed 30 August 2017
                         </span>
                         
                     </div>
@@ -106,23 +106,23 @@
     <article>
         <h1>Aplicação OLTP para Controle de Submissão e Avaliação de Artigos</h1>
 <p>A aplicação OLTP para o sistema de submissão, já descrito no post anterior, que será apresentada nos parágrafos seguintes foi construída com apoio das framework <em>Laravel, Docker e Bootstrap</em>. A elaboração do sistema seguiu as etapas ilustradas na figura 1.</p>
-<p><img alt="metodologia" src="images/metodologia.png" /></p>
+<p><img alt="metodologia" src="images/metodologia.png"></p>
 <p>Figura 1. Etapas para elaboração da aplicação</p>
 <p>As primeiras etapas foram as de coleta de requisitos e modelagem, já descrita no post anterior, após seguiu-se para a população da base, criação das transações de <em>commit</em> e <em>rollback</em> e finalização da aplicação.</p>
 <p>A geração de dados para povoar o banco foi feita dividida em 3 etapas:
 A primeira etapa foi povoar as tabelas <em>Congress</em> e <em>Paper</em>, para isso foi utilizado uma técnica chamada <em>Web Scrapping</em>, na qual é criado um programa que varre a web coletando dados específicos (o código utilizado se encontra em https://github.com/Felipeandradee/scrapper-tebd ). A figura 2 e 3 ilustram um trecho do script que realiza primeira etapa do povoamento.</p>
-<p><img alt="crawler1" src="images/crawler1.png" /></p>
+<p><img alt="crawler1" src="images/crawler1.png"></p>
 <p>Figura 2. Primeira Etapa do Povoamento</p>
-<p><img alt="crawler2" src="images/crawler2.png" /></p>
+<p><img alt="crawler2" src="images/crawler2.png"></p>
 <p>Figura 3. Primeira Etapa do Povoamento.</p>
 <p>A segunda etapa foi povoar a tabela Participant, nesse caso foi utilizado uma biblioteca php chamada <em>Faker</em> que gera dados fictícios aleatório com base em um padrão pré definido.
 Por fim, com esses dados foi possível criar as tabelas reviser, autor, congress_paper e review, já que são tabelas que fazem a junção de dados das etapas 1 e 2. As figuras 4 e 5 ilustram a segunda etapa do povoamento.</p>
-<p><img alt="faker" src="images/faker.png" /></p>
+<p><img alt="faker" src="images/faker.png"></p>
 <p>Figura 4. Definição das regras para geração dos dados para cada campo da tabela Participants.</p>
-<p><img alt="participant" src="images/participant_seeder.png" /></p>
+<p><img alt="participant" src="images/participant_seeder.png"></p>
 <p>Figura 5. Chamada ao gerador solicitando a criação de 500.000 registros fictícios.</p>
 <p>Por fim adicionamos uma chamada ao seed criado na classe DatabaseSeed que é responsável por executar os seeds (Figura 6).</p>
-<p><img alt="database" src="images/database_seeder.png" /></p>
+<p><img alt="database" src="images/database_seeder.png"></p>
 <p>Figura 6. Chamada ao seed.</p>
 <p>O programa foi executado via terminal com o comando:    “php artisan migrate --seed”.</p>
     </article>
