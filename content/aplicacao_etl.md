@@ -24,7 +24,7 @@ Sendo que a base DW está no formato abaixo:
 
 A carga do modelo star schema com os dados relacional será atráves de uma aplicação ETL(Extract, Transform, Load).
 Essa aplicação irá ler os dados, realizar a normalização e inserir no banco DW.
-Para criação dessa aplicação foi utilizado a linguagem de programação Python.
+Para criação dessa aplicação foi utilizado a linguagem de programação Python com a biblioteca [Peewee](http://docs.peewee-orm.com/).
 
 Para cada tabela destino foi criado um metodo para fazer a migração, as tabelas autor, year e congress, foram mais simples por não depender de muitas relações.
 
@@ -40,7 +40,7 @@ Já a tabela Admissions, é o compilado de dados das tabelas Congress, Congress_
 Para administrar todos esses métodos, foi criado uma classe main em que todos eles passavam por um controle de transação.
 
 
-![Figura 5](images/post_etl/admissions.jpg)<br />
+![Figura 5](images/post_etl/main.jpg)<br />
 ***Figura 5.** Main com Commit e Rollback para controle das transações.*
 
 
