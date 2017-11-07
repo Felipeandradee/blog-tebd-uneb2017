@@ -2,23 +2,23 @@
 <html lang="pt">
 
 <head>
-        <meta charset="utf-8">
+            <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="description" content="">
         <meta name="author" content="">
 
-        <title>Topicos Especiais em Banco de Dados - UNEB 2017.2 - Articles by Felipe Andrade</title>
+        <title>Topicos Especiais em Banco de Dados - UNEB 2017.2</title>
 
 
         <!-- Bootstrap Core CSS -->
-        <link href="../theme/css/bootstrap.min.css" rel="stylesheet">
+        <link href="./theme/css/bootstrap.min.css" rel="stylesheet">
 
         <!-- Custom CSS -->
-        <link href="../theme/css/clean-blog.min.css" rel="stylesheet">
+        <link href="./theme/css/clean-blog.min.css" rel="stylesheet">
 
         <!-- Code highlight color scheme -->
-            <link href="../theme/css/code_blocks/darkly.css" rel="stylesheet">
+            <link href="./theme/css/code_blocks/darkly.css" rel="stylesheet">
 
         <!-- Custom Fonts -->
         <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -32,8 +32,24 @@
             <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
         <![endif]-->
 
-		<meta property="og:locale" content="pt">
+
+
+
+        <meta name="tags" contents="etl" />
+        <meta name="tags" contents="starSchema" />
+        <meta name="tags" contents="DataWarehouse" />
+
+
+			<meta property="og:locale" content="pt">
 		<meta property="og:site_name" content="Topicos Especiais em Banco de Dados - UNEB 2017.2">
+
+	<meta property="og:type" content="article">
+	<meta property="article:author" content="">
+	<meta property="og:url" content="./aplicacao-etl.html">
+	<meta property="og:title" content="Aplicação ETL - Extração, Transformação e Carga">
+	<meta property="og:description" content="">
+	<meta property="og:image" content="./">
+	<meta property="article:published_time" content="2017-11-01 22:35:00-03:00">
 </head>
 
 <body>
@@ -49,7 +65,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="../">Topicos Especiais em Banco de Dados - UNEB 2017.2</a>
+                <a class="navbar-brand" href="./">Topicos Especiais em Banco de Dados - UNEB 2017.2</a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -64,12 +80,17 @@
     </nav>
 
     <!-- Page Header -->
-        <header class="intro-header" style="background-image: url('../theme/images/home-bg.jpg')">
+        <header class="intro-header" style="background-image: url('./theme/images/post-bg.jpg')">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                     <div class="post-heading">
-                        <h1>Articles by Felipe Andrade</h1>
+                        <h1>Aplicação ETL - Extração, Transformação e Carga</h1>
+                        <span class="meta">Posted by
+                                <a href="./author/felipe-andrade.html">Felipe Andrade</a>
+                             on Wed 01 November 2017
+                        </span>
+                        
                     </div>
                 </div>
             </div>
@@ -80,81 +101,33 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-        <div class="post-preview">
-            <a href="../aplicacao-etl.html" rel="bookmark" title="Permalink to Aplicação ETL - Extração, Transformação e Carga">
-                <h2 class="post-title">
-                    Aplicação ETL - Extração, Transformação e Carga
-                </h2>
-            </a>
-                <p>Migrando dados de uma base relacional para Star Schema</p>
-            <p class="post-meta">Posted by
-                    <a href="../author/felipe-andrade.html">Felipe Andrade</a>
-                 on Wed 01 November 2017
-            </p>
-        </div>
-        <hr>
-        <div class="post-preview">
-            <a href="../dados-semiestruturados-congresso.html" rel="bookmark" title="Permalink to RDF e SPARQL - Dados Semiestruturados do sistema de congressos">
-                <h2 class="post-title">
-                    RDF e SPARQL - Dados Semiestruturados do sistema de congressos
-                </h2>
-            </a>
-                <p>Dados Semiestruturados do sistema de congressos</p>
-            <p class="post-meta">Posted by
-                    <a href="../author/felipe-andrade.html">Felipe Andrade</a>
-                 on Mon 09 October 2017
-            </p>
-        </div>
-        <hr>
-        <div class="post-preview">
-            <a href="../aplicativo-android-congress.html" rel="bookmark" title="Permalink to Aplicativo Android para listagem de congressos">
-                <h2 class="post-title">
-                    Aplicativo Android para listagem de congressos
-                </h2>
-            </a>
-                <p>Descricação do Aplicativo Android Congress</p>
-            <p class="post-meta">Posted by
-                    <a href="../author/felipe-andrade.html">Felipe Andrade</a>
-                 on Wed 27 September 2017
-            </p>
-        </div>
-        <hr>
-        <div class="post-preview">
-            <a href="../aplicacao-oltp-para-controle-de-submissao-e-avaliacao-de-artigos.html" rel="bookmark" title="Permalink to Aplicação OLTP para Controle de Submissão e Avaliação de Artigos">
-                <h2 class="post-title">
-                    Aplicação OLTP para Controle de Submissão e Avaliação de Artigos
-                </h2>
-            </a>
-                <p>Aplicação OLTP para Controle de Submissão e Avaliação de Artigos</p>
-            <p class="post-meta">Posted by
-                    <a href="../author/elizabete-reis.html">Elizabete Reis</a>
-                    <a href="../author/felipe-andrade.html">Felipe Andrade</a>
-                    <a href="../author/tarsis-lima.html">Társis Lima</a>
-                 on Wed 30 August 2017
-            </p>
-        </div>
-        <hr>
-        <div class="post-preview">
-            <a href="../sobre-o-blog.html" rel="bookmark" title="Permalink to hello_world.sql">
-                <h2 class="post-title">
-                    hello_world.sql
-                </h2>
-            </a>
-                <p>Uma descriçao sobre o blog</p>
-            <p class="post-meta">Posted by
-                    <a href="../author/felipe-andrade.html">Felipe Andrade</a>
-                 on Wed 16 August 2017
-            </p>
-        </div>
-        <hr>
+    <!-- Post Content -->
+    <article>
+        <h1>Migrando dados de uma base relacional para Star Schema</h1>
+<p>Na etapa anterior foi feito a modelagem do Star Schema onde se utilizou dados ficticios para testar.
+Após ter definido como seria a base DW, chegou a hora de migrar as informações do modelo relacional para essa nova base.</p>
+<p>O modelo relacional está da seguinte forma:</p>
+<p><img alt="Figura 1" src="images/post_etl/ER_congress.png"><br />
+<em><strong>Figura 1.</strong> Diagrama Entidade Relacionamento do modelo relacional.</em></p>
+<p>Sendo que a base DW está no formato abaixo:</p>
+<p><img alt="Figura 2" src="images/post_etl/dw_congress.png"><br />
+<em><strong>Figura 2.</strong> Diagrama Entidade Relacionamento do modelo Star Schema.</em></p>
+<p>A carga do modelo star schema com os dados relacional será atráves de uma aplicação ETL(Extract, Transform, Load).
+Essa aplicação irá ler os dados, realizar a normalização e inserir no banco DW.
+Para criação dessa aplicação foi utilizado a linguagem de programação Python com a biblioteca <a href="http://docs.peewee-orm.com/">Peewee</a>.</p>
+<p>Para cada tabela destino foi criado um metodo para fazer a migração, as tabelas autor, year e congress, foram mais simples por não depender de muitas relações.</p>
+<p><img alt="Figura 3" src="images/post_etl/autor_year_congress.jpg"><br />
+<em><strong>Figura 3.</strong> Métodos para carga de autor, year e congress.</em></p>
+<p>Já a tabela Admissions, é o compilado de dados das tabelas Congress, Congress_paper, Paper, Autor e Year, o que elevou sua complexidade em relação as outras tabelas.</p>
+<p><img alt="Figura 4" src="images/post_etl/admissions.jpg"><br />
+<em><strong>Figura 4.</strong> Método para carga de Admissions.</em></p>
+<p>Para administrar todos esses métodos, foi criado uma classe main em que todos eles passavam por um controle de transação.</p>
+<p><img alt="Figura 5" src="images/post_etl/main.jpg"><br />
+<em><strong>Figura 5.</strong> Main com Commit e Rollback para controle das transações.</em></p>
+    </article>
 
-    <!-- Pager -->
-    <ul class="pager">
-        <li class="next">
-        </li>
-    </ul>
-    Page 1 / 1
     <hr>
+
             </div>
         </div>
     </div>
@@ -200,13 +173,13 @@
     </footer>
 
     <!-- jQuery -->
-    <script src="../theme/js/jquery.js"></script>
+    <script src="./theme/js/jquery.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
-    <script src="../theme/js/bootstrap.min.js"></script>
+    <script src="./theme/js/bootstrap.min.js"></script>
 
     <!-- Custom Theme JavaScript -->
-    <script src="../theme/js/clean-blog.min.js"></script>
+    <script src="./theme/js/clean-blog.min.js"></script>
 
 </body>
 
