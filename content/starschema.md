@@ -14,11 +14,11 @@ A criação do data warehouse demanda inicialmente a criação de um modelo de d
 
 ![Star Schema para Aplicação de Submissão de Artigos](./images/congressModel.png)
 
-No modelo apresentado na figura as dimensões são as tabelas *congress* e *autor*, um fato é representado pela tabela *admissions* que contém *accepted* e *refused*, os atributos mensuráveis do modelo que representam respectivamente os artigos aceitos e os recusados por um determinado congresso. 
+No modelo apresentado na figura as dimensões são as tabelas *congress*, *autor* e *year*, um fato é representado pela tabela *admissions* que contém *accepted* e *refused*, os atributos mensuráveis do modelo que representam respectivamente os artigos aceitos e os recusados por um determinado congresso. 
 
 O indicador escolhido para ser mensurado foi o número de artigos publicados por autor, lembrando que para um artigo ser publicado ele precisa ser aceito. Para chegar até esse indicador algumas questão foram colocadas:
 
- 1.  Qual fato ocorreu? Um artigo x foi aprovado
+ 1. Qual fato ocorreu? Um artigo x foi aprovado
  2. Quando este fato ocorreu? No ano y
  3. Quem? Pelo autor z
  

@@ -2,13 +2,13 @@
 <html lang="pt">
 
 <head>
-        <meta charset="utf-8">
+            <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="description" content="">
         <meta name="author" content="">
 
-        <title>Topicos Especiais em Banco de Dados - UNEB 2017.2 - Archives</title>
+        <title>Topicos Especiais em Banco de Dados - UNEB 2017.2</title>
 
 
         <!-- Bootstrap Core CSS -->
@@ -32,8 +32,23 @@
             <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
         <![endif]-->
 
-		<meta property="og:locale" content="pt">
+
+
+
+        <meta name="tags" contents="rdf" />
+        <meta name="tags" contents="jena" />
+
+
+			<meta property="og:locale" content="pt">
 		<meta property="og:site_name" content="Topicos Especiais em Banco de Dados - UNEB 2017.2">
+
+	<meta property="og:type" content="article">
+	<meta property="article:author" content="">
+	<meta property="og:url" content="./hello-world-com-apache-jena.html">
+	<meta property="og:title" content="Hello World com Apache Jena">
+	<meta property="og:description" content="">
+	<meta property="og:image" content="./">
+	<meta property="article:published_time" content="2017-08-30 07:30:00-03:00">
 </head>
 
 <body>
@@ -64,12 +79,17 @@
     </nav>
 
     <!-- Page Header -->
-        <header class="intro-header" style="background-image: url('./theme/images/home-bg.jpg')">
+        <header class="intro-header" style="background-image: url('./theme/images/post-bg.jpg')">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                     <div class="post-heading">
-                        <h1>Archives for Topicos Especiais em Banco de Dados - UNEB 2017.2</h1>
+                        <h1>Hello World com Apache Jena</h1>
+                        <span class="meta">Posted by
+                                <a href="./author/elizabete-reis.html">Elizabete Reis</a>
+                             on Qua 30 agosto 2017
+                        </span>
+                        
                     </div>
                 </div>
             </div>
@@ -80,25 +100,18 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-    <dl>
-            <dt>Seg 23 outubro 2017</dt>
-            <dd><a href="./projeto-dw.html">Aplicação OLAP - Star Schema e DW de Congresso</a></dd>
-            <dt>Qua 27 setembro 2017</dt>
-            <dd><a href="./aplicativo-android-congress.html">Aplicativo Android para listagem de congressos</a></dd>
-            <dt>Ter 26 setembro 2017</dt>
-            <dd><a href="./projeto-modelo.html">Instalando ambiente e rodando aplicativo Faculdade</a></dd>
-            <dt>Qua 30 agosto 2017</dt>
-            <dd><a href="./aplicacao-oltp-para-controle-de-submissao-e-avaliacao-de-artigos.html">Aplicação OLTP para Controle de Submissão e Avaliação de Artigos</a></dd>
-            <dt>Qua 30 agosto 2017</dt>
-            <dd><a href="./hello-world-com-apache-jena.html">Hello World com Apache Jena</a></dd>
-            <dt>Ter 22 agosto 2017</dt>
-            <dd><a href="./mapa-conceitual-e-logico.html">Modelo conceitual e logico</a></dd>
-            <dt>Ter 22 agosto 2017</dt>
-            <dd><a href="./descricao-do-trabalho.html">Descriçao do trabalho</a></dd>
-            <dt>Qua 16 agosto 2017</dt>
-            <dd><a href="./sobre-o-blog.html">hello_world.sql</a></dd>
-        <hr>
-    </dl>
+    <!-- Post Content -->
+    <article>
+        <h1>Hello World com Apache Jena</h1>
+<hr />
+<p>Para realizar esta etapa foi utilizada a IDE Eclipse e a framework RDF. Inicialmente foi criado um projeto Java e as bibliotecas da framework foram importadas. A figura 1 ilustra o código do hello world e sua respectiva saída no console. </p>
+<p><img alt="Hello World com RDF" src="content/images/jenatutorial.png" /></p>
+<p>Primeiramente é criado um recurso, não existe definição exata sobre o que é um recurso, alguns autores conceituam que é tudo que pode ser identificado. Um recurso é identificado por uma URI (Identificador Uniforme de Recurso) representada pela <em>String</em> NS, ele possui propriedades que para o exemplo anterior é um literal "hello world" do tipo <em>XSDstring</em>.</p>
+<p>Por fim o model criado na linha 13 é utilizado na escrever numa <em>Outputstream</em> num formato pré definido, para o exemplo a saída é <em>System.out</em> e o formato <em>Turtle</em>. A saída pode ser vista no console.</p>
+    </article>
+
+    <hr>
+
             </div>
         </div>
     </div>
