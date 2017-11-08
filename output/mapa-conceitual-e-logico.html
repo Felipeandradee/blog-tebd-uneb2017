@@ -90,7 +90,7 @@
                         <h1>Modelo conceitual e logico</h1>
                         <span class="meta">Posted by
                                 <a href="./author/elizabete-reis.html">Elizabete Reis</a>
-                             on Tue 22 August 2017
+                             on Ter 22 agosto 2017
                         </span>
                         
                     </div>
@@ -108,10 +108,10 @@
         <h1>Modelo Conceitual e Lógico para um Sistema Para Controle De Submissão e Avaliação de Artigos de Congressos</h1>
 <p>A criação de modelos é uma forma de abstrair a complexidade das características de um sistema e planejá-lo antes de iniciar a implementação. Em banco de dados dois tipos de modelagem são frequentemente utilizados para representar a organização dos dados manipulados pelo sistema, são eles: o modelo conceitual e o modelo lógico ou entidade relacionamento (ER), o primeiro diz respeito a visão do usuário sobre os dados, é o modelo mais alto nível, busca representar o relacionamento entre os dados de forma simples. Já o segundo modelo, ER, detalha as características do sistema por meio de uma linguagem que representa as tabelas, atributos e relações de forma que o mesmo diagrama possa ser interpretado posteriormente por um SGBD.</p>
 <p>A imagem abaixo ilustra o modelo conceitual do sistema de submissão:</p>
-<p><img alt="Alt Text" src="./images/Congresso.png"></p>
+<p><img alt="Alt Text" src="./images/Congresso.png" /></p>
 <p>Figura 1. Modelo conceitual do sistema de submissão.</p>
 <p>Para o sistema em questão uma pessoa que faz inscrição se torna participante do congresso podendo ser revisor, autor ou apenas ouvinte. Um revisor pode revisar n artigos, desde que nenhum seja de sua autoria. Abaixo está ilustrado o modelo entidade-relacionamento do sistema.</p>
-<p><img alt="Alt Text" src="./images/CongressoER.png"></p>
+<p><img alt="Alt Text" src="./images/CongressoER.png" /></p>
 <p>Figura 2. Modelo lógico do sistema de submissão.</p>
 <p>Como já indicado anteriormente um participante pode ser autor ou revisor. A tabela “Reviser” relaciona-se através de chave estrangeira com “Review”, que representa a revisão por cada revisor, e “Participant”, que representa um inscrito no congresso. “Autor” faz a relação entre “Participant” e “Paper” associando um autor ao seu respectivo artigo e “Congress_Paper” os artigos que foram aceitos no congresso.</p>
     </article>

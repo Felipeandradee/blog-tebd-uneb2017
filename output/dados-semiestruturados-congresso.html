@@ -88,7 +88,7 @@
                         <h1>RDF e SPARQL - Dados Semiestruturados do sistema de congressos</h1>
                         <span class="meta">Posted by
                                 <a href="./author/felipe-andrade.html">Felipe Andrade</a>
-                             on Mon 09 October 2017
+                             on Seg 09 outubro 2017
                         </span>
                         
                     </div>
@@ -107,22 +107,22 @@
 <p>Para transformar os dados do sistema de congressos em dados semiestruturados foi utilizado a estrutura RDF(<em>Resource Description Framework</em>), que possui uma sintaxe baseada em XML sendo uma linguagem mínima para a representação de Ontologias simples.
 O RDF possui o conceito de tripla formada por sujeito(recurso), predicado(propriedade) e objeto(literal).</p>
 <p>Para tranformar os dados do projeto em semiestruturados foi necessário primeiro criar um metodo que busca-se os mesmos do banco de dados relacional MySQL.</p>
-<p><img alt="Figura 1" src="images/post_rdf/searchmysql.jpg"><br />
+<p><img alt="Figura 1" src="images/post_rdf/searchmysql.jpg" /><br />
 <em><strong>Figura 1.</strong> Código do método SearchMySQL que retorna a junção de paper, autor e participant.</em></p>
 <p>Com os dados relacional foram criados os atributos de paper e autor.</p>
-<p><img alt="Figura 2" src="images/post_rdf/paper_autor.jpg"><br />
+<p><img alt="Figura 2" src="images/post_rdf/paper_autor.jpg" /><br />
 <em><strong>Figura 2.</strong>Código usado pra criar atributos apartir do SQL.</em></p>
 <p>Depois foi criado um modelo RDF assim como as propriedades AUTOR e ABSTRACT, que não existiam na VCARD(onde ficam as propriedades predefinidas da biblioteca) e criado um a tripla utilizando paper como sujeito. Por fim, esse modelo foi adicionado à uma lista de modelos que foram salvos como um arquivo RDF.</p>
-<p><img alt="Figura 3" src="images/post_rdf/create_model.jpg"><br />
+<p><img alt="Figura 3" src="images/post_rdf/create_model.jpg" /><br />
 <em><strong>Figura 3.</strong>Código para criação de tripla e salvar arquivo RDF.</em></p>
-<p><img alt="Figura 4" src="images/post_rdf/rdf_file.jpg"><br />
+<p><img alt="Figura 4" src="images/post_rdf/rdf_file.jpg" /><br />
 <em><strong>Figura 4.</strong>Parte do arquivo RDF gerado.</em></p>
 <p>O passo seguinte foi ler o arquivo gerado e carregar o modelo RDF.</p>
-<p><img alt="Figura 5" src="images/post_rdf/read_rdf.jpg"><br />
+<p><img alt="Figura 5" src="images/post_rdf/read_rdf.jpg" /><br />
 <em><strong>Figura 5.</strong>Código para ler o arquivo e carregar dados.</em></p>
 <p>Tendo os dados no formato RDF, é utilizado a linguagem SPARQL(<em>Protocol and RDF Query Language</em>) para realizar consultas fazendo o uso também do conceito de tripla.</p>
 <p>Com o modelo RDF carregado foi a vez de realizar as consultas SPARQL. A primeira consulta é uma query simples onde é feito um select buscando todos os dados por autor e uma segunda query em que é feito um distinct.</p>
-<p><img alt="Figura 6" src="images/post_rdf/query_sparql.jpg"><br />
+<p><img alt="Figura 6" src="images/post_rdf/query_sparql.jpg" /><br />
 <em><strong>Figura 6.</strong>Código das query utilizadas.</em></p>
 <p><strong>Todos os códigos utilizados nesta atividade estão disponíveis no GitHub através do repositório: <a href="https://github.com/Felipeandradee/tebd-rdf-exercise.git">https://github.com/Felipeandradee/tebd-rdf-exercise.git</a>.</strong></p>
     </article>

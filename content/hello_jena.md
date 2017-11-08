@@ -1,5 +1,5 @@
 Title: Hello World com Apache Jena
-Date: 2017-08-30 7:30
+Date: 2017-10-09 7:30
 Category: jena
 Tags: rdf, jena
 Authors: Elizabete Reis
