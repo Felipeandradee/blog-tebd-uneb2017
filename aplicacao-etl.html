@@ -88,7 +88,7 @@
                         <h1>Aplicação ETL - Extração, Transformação e Carga</h1>
                         <span class="meta">Posted by
                                 <a href="./author/felipe-andrade.html">Felipe Andrade</a>
-                             on Wed 01 November 2017
+                             on Qua 01 novembro 2017
                         </span>
                         
                     </div>
@@ -107,22 +107,22 @@
 <p>Na etapa anterior foi feito a modelagem do Star Schema onde se utilizou dados ficticios para testar.
 Após ter definido como seria a base DW, chegou a hora de migrar as informações do modelo relacional para essa nova base.</p>
 <p>O modelo relacional está da seguinte forma:</p>
-<p><img alt="Figura 1" src="images/post_etl/ER_congress.png"><br />
+<p><img alt="Figura 1" src="images/post_etl/ER_congress.png" /><br />
 <em><strong>Figura 1.</strong> Diagrama Entidade Relacionamento do modelo relacional.</em></p>
 <p>Sendo que a base DW está no formato abaixo:</p>
-<p><img alt="Figura 2" src="images/post_etl/dw_congress.png"><br />
+<p><img alt="Figura 2" src="images/post_etl/dw_congress.png" /><br />
 <em><strong>Figura 2.</strong> Diagrama Entidade Relacionamento do modelo Star Schema.</em></p>
 <p>A carga do modelo star schema com os dados relacional será atráves de uma aplicação ETL(Extract, Transform, Load).
 Essa aplicação irá ler os dados, realizar a normalização e inserir no banco DW.
 Para criação dessa aplicação foi utilizado a linguagem de programação Python com a biblioteca <a href="http://docs.peewee-orm.com/">Peewee</a>.</p>
 <p>Para cada tabela destino foi criado um metodo para fazer a migração, as tabelas autor, year e congress, foram mais simples por não depender de muitas relações.</p>
-<p><img alt="Figura 3" src="images/post_etl/autor_year_congress.jpg"><br />
+<p><img alt="Figura 3" src="images/post_etl/autor_year_congress.jpg" /><br />
 <em><strong>Figura 3.</strong> Métodos para carga de autor, year e congress.</em></p>
 <p>Já a tabela Admissions, é o compilado de dados das tabelas Congress, Congress_paper, Paper, Autor e Year, o que elevou sua complexidade em relação as outras tabelas.</p>
-<p><img alt="Figura 4" src="images/post_etl/admissions.jpg"><br />
+<p><img alt="Figura 4" src="images/post_etl/admissions.jpg" /><br />
 <em><strong>Figura 4.</strong> Método para carga de Admissions.</em></p>
 <p>Para administrar todos esses métodos, foi criado uma classe main em que todos eles passavam por um controle de transação.</p>
-<p><img alt="Figura 5" src="images/post_etl/main.jpg"><br />
+<p><img alt="Figura 5" src="images/post_etl/main.jpg" /><br />
 <em><strong>Figura 5.</strong> Main com Commit e Rollback para controle das transações.</em></p>
     </article>
 

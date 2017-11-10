@@ -2,13 +2,13 @@
 <html lang="pt">
 
 <head>
-        <meta charset="utf-8">
+            <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="description" content="">
         <meta name="author" content="">
 
-        <title>Topicos Especiais em Banco de Dados - UNEB 2017.2 - Tags</title>
+        <title>Topicos Especiais em Banco de Dados - UNEB 2017.2</title>
 
 
         <!-- Bootstrap Core CSS -->
@@ -32,8 +32,24 @@
             <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
         <![endif]-->
 
-		<meta property="og:locale" content="pt">
+
+
+
+        <meta name="tags" contents="etl" />
+        <meta name="tags" contents="starSchema" />
+        <meta name="tags" contents="indicador" />
+
+
+			<meta property="og:locale" content="pt">
 		<meta property="og:site_name" content="Topicos Especiais em Banco de Dados - UNEB 2017.2">
+
+	<meta property="og:type" content="article">
+	<meta property="article:author" content="">
+	<meta property="og:url" content="./indicador.html">
+	<meta property="og:title" content="Aplicação OLAP - Coletando informações de indicadores">
+	<meta property="og:description" content="">
+	<meta property="og:image" content="./">
+	<meta property="article:published_time" content="2017-11-06 07:35:00-03:00">
 </head>
 
 <body>
@@ -64,12 +80,17 @@
     </nav>
 
     <!-- Page Header -->
-        <header class="intro-header" style="background-image: url('./theme/images/home-bg.jpg')">
+        <header class="intro-header" style="background-image: url('./theme/images/post-bg.jpg')">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                     <div class="post-heading">
-                        <h1>Topicos Especiais em Banco de Dados - UNEB 2017.2 - Tags</h1>
+                        <h1>Aplicação OLAP - Coletando informações de indicadores</h1>
+                        <span class="meta">Posted by
+                                <a href="./author/elizabete-reis.html">Elizabete Reis</a>
+                             on Seg 06 novembro 2017
+                        </span>
+                        
                     </div>
                 </div>
             </div>
@@ -80,28 +101,29 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-    <h1>Tags for Topicos Especiais em Banco de Dados - UNEB 2017.2</h1>        <li><a href="./tag/android.html">android</a> (3)</li>
-        <li><a href="./tag/articles.html">articles</a> (2)</li>
-        <li><a href="./tag/bigdata.html">BigData</a> (2)</li>
-        <li><a href="./tag/conceptmap.html">conceptMap</a> (1)</li>
-        <li><a href="./tag/conference.html">conference</a> (2)</li>
-        <li><a href="./tag/congress.html">congress</a> (1)</li>
-        <li><a href="./tag/database.html">Database</a> (1)</li>
-        <li><a href="./tag/datawarehouse.html">DataWarehouse</a> (1)</li>
-        <li><a href="./tag/entityrelationship.html">entityRelationship</a> (1)</li>
-        <li><a href="./tag/etl.html">etl</a> (2)</li>
-        <li><a href="./tag/faculdadeapp.html">faculdadeapp</a> (1)</li>
-        <li><a href="./tag/indicador.html">indicador</a> (1)</li>
-        <li><a href="./tag/jena.html">jena</a> (2)</li>
-        <li><a href="./tag/json.html">json</a> (2)</li>
-        <li><a href="./tag/laravel.html">laravel</a> (1)</li>
-        <li><a href="./tag/mobile.html">mobile</a> (1)</li>
-        <li><a href="./tag/olap.html">olap</a> (1)</li>
-        <li><a href="./tag/oltp.html">oltp</a> (1)</li>
-        <li><a href="./tag/rdf.html">rdf</a> (2)</li>
-        <li><a href="./tag/sparql.html">sparql</a> (1)</li>
-        <li><a href="./tag/starschema.html">starSchema</a> (3)</li>
-        <li><a href="./tag/uneb.html">UNEB</a> (1)</li>
+    <!-- Post Content -->
+    <article>
+        <h1>Aplicação OLAP - Coletando informações de indicadores</h1>
+<p>Após finalizada as etapas de <a href="https://felipeandradee.github.io/blog-tebd-uneb2017/projeto-dw.html">modelagem do star schema da aplicação</a> e <a href="https://felipeandradee.github.io/blog-tebd-uneb2017/aplicacao-etl.html">migração dos dados</a> do banco relacional para o datawarehouse através do processo de ETL, agora é possível tirar conclusões sobre o andamento do negócio através dos indicadores escolhido. O indicador em questão, já explicado no <a href="https://felipeandradee.github.io/blog-tebd-uneb2017/projeto-dw.html">post</a> anterior, foi o número de artigos publicados por autor. A figura 1 ilustra o número de artigos publicados pelo autor de nome "<em>Sr. Benjamin Caldeira</em>" entre os anos de 2017-2021. A query usada no editor MDX para gerar o gráfico foi:</p>
+<div class="highlight"><pre><span></span>select {[Measures].[Accepted]} ON COLUMNS,
+ {[Year]} ON ROWS
+ from [Admissions]
+ where ([Autor].[Sr. Benjamin Caldeira])
+</pre></div>
+
+
+<p><img alt="**Figura 1. Artigos publicados por ano**" src="images/indicadorGraficoYear.png" /></p>
+<p>O indicador exemplicado pode ser usado, por exemplo, para avaliar a produção acadêmica de pesquisadores ao longo do tempo, a figura 2 mostra a comparação entre artigos recusados e aceitos. </p>
+<p><img alt="**Figura 2. Comparação entre artigos recusados e aceitos**" src="images/autorcomparegrafico.png" /></p>
+<p>O gráfico ilustrado foi obtido através da interface do SpagoBI para o cubo olap, a figura 3 ilustra a tela inicial da interface citada.</p>
+<p><img alt="**Figura 3. Interface do cubo OLAP para congresso**" src="images/cuboCongress.png" width="800" height="500"/></p>
+<p>A figura 3 dá uma visão geral de congressos e o total de artigos recusados e aceitos. Também é possível visualizar informações e gerar gráficos através da interface do Qbe (figura 4).</p>
+<p><img alt="**Figura 4. Interface Qbe para aplicação congresso**" src="images/qbeCongress.png" width="800" height="500"/></p>
+<p>Na figura acima é possível visualizar os artigos aceitos e recusados agrupados por local de trabalho. É possivel alterar o estilo do gráfico via interface e o conteúdo das colunas através do editor MDX que é bastante simplicado e permite a elaboração de queries rapidamente.</p>
+    </article>
+
+    <hr>
+
             </div>
         </div>
     </div>
