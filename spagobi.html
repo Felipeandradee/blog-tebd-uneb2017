@@ -2,13 +2,13 @@
 <html lang="pt">
 
 <head>
-        <meta charset="utf-8">
+            <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="description" content="">
         <meta name="author" content="">
 
-        <title>Topicos Especiais em Banco de Dados - UNEB 2017.2 - Archives</title>
+        <title>Topicos Especiais em Banco de Dados - UNEB 2017.2</title>
 
 
         <!-- Bootstrap Core CSS -->
@@ -32,8 +32,24 @@
             <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
         <![endif]-->
 
-		<meta property="og:locale" content="pt">
+
+
+
+        <meta name="tags" contents="olap" />
+        <meta name="tags" contents="starSchema" />
+        <meta name="tags" contents="spagobi" />
+
+
+			<meta property="og:locale" content="pt">
 		<meta property="og:site_name" content="Topicos Especiais em Banco de Dados - UNEB 2017.2">
+
+	<meta property="og:type" content="article">
+	<meta property="article:author" content="">
+	<meta property="og:url" content="./spagobi.html">
+	<meta property="og:title" content="Aplicação OLAP - DW de vendas com SpagoBI">
+	<meta property="og:description" content="">
+	<meta property="og:image" content="./">
+	<meta property="article:published_time" content="2017-11-06 07:35:00-03:00">
 </head>
 
 <body>
@@ -64,12 +80,17 @@
     </nav>
 
     <!-- Page Header -->
-        <header class="intro-header" style="background-image: url('./theme/images/home-bg.jpg')">
+        <header class="intro-header" style="background-image: url('./theme/images/post-bg.jpg')">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                     <div class="post-heading">
-                        <h1>Archives for Topicos Especiais em Banco de Dados - UNEB 2017.2</h1>
+                        <h1>Aplicação OLAP - DW de vendas com SpagoBI</h1>
+                        <span class="meta">Posted by
+                                <a href="./author/elizabete-reis.html">Elizabete Reis</a>
+                             on Seg 06 novembro 2017
+                        </span>
+                        
                     </div>
                 </div>
             </div>
@@ -80,33 +101,23 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-    <dl>
-            <dt>Seg 06 novembro 2017</dt>
-            <dd><a href="./indicador.html">Aplicação OLAP - Coletando informações de indicadores</a></dd>
-            <dt>Seg 06 novembro 2017</dt>
-            <dd><a href="./spagobi.html">Aplicação OLAP - DW de vendas com SpagoBI</a></dd>
-            <dt>Qua 01 novembro 2017</dt>
-            <dd><a href="./aplicacao-etl.html">Aplicação ETL - Extração, Transformação e Carga</a></dd>
-            <dt>Seg 23 outubro 2017</dt>
-            <dd><a href="./projeto-dw.html">Aplicação OLAP - Star Schema e DW de Congresso</a></dd>
-            <dt>Seg 09 outubro 2017</dt>
-            <dd><a href="./dados-semiestruturados-congresso.html">RDF e SPARQL - Dados Semiestruturados do sistema de congressos</a></dd>
-            <dt>Seg 09 outubro 2017</dt>
-            <dd><a href="./hello-world-com-apache-jena.html">Hello World com Apache Jena</a></dd>
-            <dt>Qua 27 setembro 2017</dt>
-            <dd><a href="./aplicativo-android-congress.html">Aplicativo Android para listagem de congressos</a></dd>
-            <dt>Ter 26 setembro 2017</dt>
-            <dd><a href="./projeto-modelo.html">Instalando ambiente e rodando aplicativo Faculdade</a></dd>
-            <dt>Qua 30 agosto 2017</dt>
-            <dd><a href="./aplicacao-oltp-para-controle-de-submissao-e-avaliacao-de-artigos.html">Aplicação OLTP para Controle de Submissão e Avaliação de Artigos</a></dd>
-            <dt>Ter 22 agosto 2017</dt>
-            <dd><a href="./mapa-conceitual-e-logico.html">Modelo conceitual e logico</a></dd>
-            <dt>Ter 22 agosto 2017</dt>
-            <dd><a href="./descricao-do-trabalho.html">Descriçao do trabalho</a></dd>
-            <dt>Qua 16 agosto 2017</dt>
-            <dd><a href="./sobre-o-blog.html">hello_world.sql</a></dd>
-        <hr>
-    </dl>
+    <!-- Post Content -->
+    <article>
+        <h1>Aplicação OLAP - DW de vendas com SpagoBI</h1>
+<hr />
+<p>A criação do data warehouse demanda inicialmente a criação de um  star schema composto por uma tabela fato e as várias dimensões que a rodeiam. A figura 1 representa o modelo star schema para a aplicação de vendas. O script para criação do banco pode ser encontrado em .</p>
+<p><img alt="**Figura 1. Star schema para DW de vendas**" src="images/vendasStar.png" /></p>
+<p>A partir do star schema apresentado anteriormente foi criado o modelo (figura 2) através do SpagoBi Studio, cuja tabela <em>Vendas</em> representa o fato ocorrido, os atributos que podem ser medidos são <em>Quantidade</em> e <em>Faturamento</em>  que tem como características as dimensões <em>Loja</em>, <em>Produto</em> e <em>Tempo</em>.</p>
+<p><img alt="**Figura 2. Modelo de negócio para DW de vendas**" src="images/vendasModel.png" /></p>
+<p>Após definir os atributos meansuráveis, foram definidas as hierarquias para os atributos de cada tabela no modelo, exceto as chaves primárias. Na figura 3 é possível visualizar a hierarquia da tabela Loja, já em <em>Produto</em> produto a hierarquia ficou primeiramente família, depois categoria e por último nome e finalmente para <em>Tempo</em> primeiro ano, mês e dia.</p>
+<p><img alt="**Figura 3. Hierarquia para tabela loja**" src="images/loja.png" /></p>
+<p>Finalizado o business model, o cubo será criado e enviado ao server. Através da interface do server no browser é possível gerar gráficos com os indicadores escolhidos para o negócio. O indicador escolhido (figura 4) para o exemplo de vendas foi o faturamento e a quantidade vendidas de produtos classificados como família F1 para o ano 2000.</p>
+<p><img alt="**Figura 4. Indicadores para vendas**" src="images/vendasGrafico.png" /></p>
+<p>Mais detalhes sobre esta atividade podem ser encontradas no tutorial que seguimos em <a href="https://www.youtube.com/watch?v=0wdOwN7OUDo&amp;list=PLLpHJYAJTb87pMTMCkOrsa8mSvoXA_Wqw">tutorial spagobi.</a>. O código da aplicação encontra-se disponível em (https://github.com/tebduneb/VendasSpagobi).</p>
+    </article>
+
+    <hr>
+
             </div>
         </div>
     </div>
