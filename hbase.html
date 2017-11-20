@@ -8,17 +8,17 @@
         <meta name="description" content="">
         <meta name="author" content="">
 
-        <title>Topicos Especiais em Banco de Dados - UNEB 2017.2 - Articles by Társis Lima</title>
+        <title>Topicos Especiais em Banco de Dados - UNEB 2017.2</title>
 
 
         <!-- Bootstrap Core CSS -->
-        <link href="../theme/css/bootstrap.min.css" rel="stylesheet">
+        <link href="./theme/css/bootstrap.min.css" rel="stylesheet">
 
         <!-- Custom CSS -->
-        <link href="../theme/css/clean-blog.min.css" rel="stylesheet">
+        <link href="./theme/css/clean-blog.min.css" rel="stylesheet">
 
         <!-- Code highlight color scheme -->
-            <link href="../theme/css/code_blocks/darkly.css" rel="stylesheet">
+            <link href="./theme/css/code_blocks/darkly.css" rel="stylesheet">
 
         <!-- Custom Fonts -->
         <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -31,9 +31,27 @@
             <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
             <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
         <![endif]-->
+<style>
+img{
+   margin:10px 0px 40px;
+   border: 1px solid #999;
+}
+</style>
 
-		<meta property="og:locale" content="pt">
+        <meta name="tags" contents="android" />
+        <meta name="tags" contents="faculdadeapp" />
+        <meta name="tags" contents="json" />
+
+			<meta property="og:locale" content="pt">
 		<meta property="og:site_name" content="Topicos Especiais em Banco de Dados - UNEB 2017.2">
+
+	<meta property="og:type" content="article">
+	<meta property="article:author" content="">
+	<meta property="og:url" content="./hbase.html">
+	<meta property="og:title" content="Instalando Hbase">
+	<meta property="og:description" content="">
+	<meta property="og:image" content="./">
+	<meta property="article:published_time" content="2017-11-18 17:16:00-03:00">
 </head>
 
 <body>
@@ -49,7 +67,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="../">Topicos Especiais em Banco de Dados - UNEB 2017.2</a>
+                <a class="navbar-brand" href="./">Topicos Especiais em Banco de Dados - UNEB 2017.2</a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -64,12 +82,17 @@
     </nav>
 
     <!-- Page Header -->
-        <header class="intro-header" style="background-image: url('../theme/images/home-bg.jpg')">
+        <header class="intro-header" style="background-image: url('./theme/images/post-bg.jpg')">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                     <div class="post-heading">
-                        <h1>Articles by Társis Lima</h1>
+                        <h1>Instalando Hbase</h1>
+                        <span class="meta">Posted by
+                                <a href="./author/tarsis-lima.html">Társis Lima</a>
+                             on Sab 18 novembro 2017
+                        </span>
+                        
                     </div>
                 </div>
             </div>
@@ -80,49 +103,69 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-        <div class="post-preview">
-            <a href="../hadoop.html" rel="bookmark" title="Permalink to Instalação Hadoop">
-                <h2 class="post-title">
-                    Instalação Hadoop
-                </h2>
-            </a>
-                <p>Instalação Hadoop</p>
-            <p class="post-meta">Posted by
-                    <a href="../author/elizabete-reis.html">Elizabete Reis</a>
-                    <a href="../author/felipe-andrade.html">Felipe Andrade</a>
-                    <a href="../author/tarsis-lima.html">Társis Lima</a>
-                 on Sab 18 novembro 2017
-            </p>
-        </div>
-        <hr>
+    <!-- Post Content -->
+    <article>
+        <p><strong>Instalação do HBase:</strong></p>
+		<p>Esta atividade consistiu da instalação do Hbase utilizando o Hadoop como sistema de arquivos em um servidor linux.</p>
 
 
-                <div class="post-preview">
-                    <a href="./hbase.html" rel="bookmark" title="Permalink to Instalação Hbase">
-                        <h2 class="post-title">
-                            Instalação Hbase
-                        </h2>
-                    </a>
-                    <p>Instalação Hbase utilizando o Hadoop como sistema de arquivos em um servidor linux.</p>
-                    <p class="post-meta">Posted by
-                        <a href="./author/tarsis-lima.html">Tarsis Lima</a>
-                        on Sab 18 novembro 2017
-                    </p>
-                </div>
-                <hr>
+	<p>
+	<em>Hbase</em> é um banco de dados distribuído open-source orientado a coluna, modelado a partir do Google BigTable e escrito em Java.<br>
+        O Hbase tem fácil integração com o Hadoop, sendo assim, pode utilizar o MapReduce para distribuir o processamento dos dados, podendo
+        processar facilmente quantidades muito grandes de dados.<br>
+        Para esta atividade será utilizado o HDFS do Hadoop como sistema de arquivos.
+	</p>
+
+<p> Para a instalação do Apache Hbase no Debian foram realizados os seguintes passos:
+
+<p><em>Obs: Para realizar a instalação do Apache Hbase o Java deve estar previamente instalado.</em><p>
+
+<p><b>Download e instalação do Hbase</b></p>
+
+        <p>Para efetuar o download deve-se selecionar uma das versões disponivel em <a href="http://www.apache.org/dyn/closer.cgi/hbase/">http://www.apache.org/dyn/closer.cgi/hbase/</a>.</p>
+
+        <p>Após o download devemos extrair os arquivos, e acessar o a pasta criada:</p>
+<pre>
+$ tar xzvf hbase-3.0.0-SNAPSHOT-bin.tar.gz<br>
+$ cd hbase-3.0.0-SNAPSHOT/
+</pre>
 
 
-                <!-- Pager -->
-    <ul class="pager">
-        <li class="next">
-        </li>
-    </ul>
-    Page 1 / 1
-    <hr>
-            </div>
-        </div>
-    </div>
+<b>Configuração</b>
+        <p>Antes de iniciar o Hbase e necessário setar a variável de ambiente JAVA_HOME, no arquivo <em>conf/hbase-env.sh</em><br>
+            Descomente a linha que começa com JAVA_HOME informando a localização correta do executável do Java
+        </p>
 
+<p>1) Configurando o Hbase com o Hadoop HDFS:</p>
+
+        <p>Esta configuração permitirá que os dados do Hbase sejam salvos no sistema de arquivos do Hadoop.<br>
+        Edite os seguintes arquivos no diretório de instalação do Hbase:</p>
+
+        <b>hbase-site.xml</b>
+        <p>Permite que o Hbase execute em modo distribuido.</p>
+        <img src="./images/1_hbase-site.png" alt="">
+
+        <p>Aponta para a instância do sistema HDFS</p>
+        <img src="./images/2_hbase-site.png" alt="">
+
+        <p>Então basta inicializar o Hbase</p>
+
+<pre>
+./bin/start-hbase.sh
+</pre>
+
+
+ <p>2) verificar diretório do HBase no HDFS</p>
+        <p>Se tudo correu bem o Hbase criou um diretorio no HDFS.</p>
+<p>Na configuração feita anteriormente ficará armazenado em /hbase/ no HDFS</p>
+<p>Para verificar basta rodar o comando <b>hadoop fs</b> no diretório <em>/bin</em> para listar este diretório.</p>
+
+Tudo pronto, Hbase instalado!
+
+
+        <p>Fontes: <br><a href="https://pt.wikipedia.org/wiki/HBase">https://pt.wikipedia.org/wiki/HBase</a><br>
+        <a href="https://hbase.apache.org/">https://hbase.apache.org/</a>
+        </p>
     <hr>
 
     <!-- Footer -->
@@ -164,14 +207,13 @@
     </footer>
 
     <!-- jQuery -->
-    <script src="../theme/js/jquery.js"></script>
+    <script src="./theme/js/jquery.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
-    <script src="../theme/js/bootstrap.min.js"></script>
+    <script src="./theme/js/bootstrap.min.js"></script>
 
     <!-- Custom Theme JavaScript -->
-    <script src="../theme/js/clean-blog.min.js"></script>
-
+    <script src="./theme/js/clean-blog.min.js"></script>
 </body>
-
 </html>
+
